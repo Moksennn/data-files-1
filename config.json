@@ -138,7 +138,7 @@
     "sd_hypernetwork": "None",
     "localization": "None",
     "gradio_theme": "Default",
-    "img2img_editor_height": 768,
+    "img2img_editor_height": 384,
     "return_grid": true,
     "return_mask": false,
     "return_mask_composite": false,
