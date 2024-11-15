@@ -1,10 +1,10 @@
 {
-    "samples_save": true,
+    "samples_save": false,
     "samples_format": "png",
     "samples_filename_pattern": "",
     "save_images_add_number": true,
     "grid_save": false,
-    "grid_format": "",
+    "grid_format": null,
     "grid_extended_filename": false,
     "grid_only_if_multiple": false,
     "grid_prevent_empty_spots": false,
@@ -53,7 +53,7 @@
         "R-ESRGAN 4x+",
         "R-ESRGAN 4x+ Anime6B"
     ],
-    "upscaler_for_img2img": null,
+    "upscaler_for_img2img": "4x-AnimeSharp.pth",
     "face_restoration_model": "CodeFormer",
     "code_former_weight": 0.5,
     "face_restoration_unload": false,
