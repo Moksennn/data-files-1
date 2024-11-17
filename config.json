@@ -76,7 +76,7 @@
     "training_enable_tensorboard": false,
     "training_tensorboard_save_images": false,
     "training_tensorboard_flush_every": 120,
-    "sd_model_checkpoint": "NUKEPonyPixarStyle_v2S.safetensors [b9a48a3a69]",
+    "sd_model_checkpoint": "NUKEPonyPixarStyle_v2S.safetensors",
     "sd_checkpoint_cache": 0,
     "sd_vae_checkpoint_cache": 0,
     "sd_vae": "sdxl_vae.safetensors",
