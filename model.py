@@ -1,6 +1,5 @@
 #Model
-https://huggingface.co/Lord769/Models/resolve/main/miaomiaoHarem_v13.safetensors
-https://huggingface.co/Lord769/Models/resolve/main/miaomiaoHarem_v14.safetensors
+https://huggingface.co/Lord769/Models/resolve/main/naixlMmmmix_v40.safetensors
 
 #Lora
 https://huggingface.co/Lord769/Models/resolve/main/Sylpha.safetensors
