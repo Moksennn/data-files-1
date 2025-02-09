@@ -1,5 +1,4 @@
 #Model
-https://huggingface.co/Lord769/Models/resolve/main/catBreadNoobaiXL_v10EpsPred.safetensors
 https://huggingface.co/Lord769/Models/resolve/main/cocoIllustriousNoobai_v50.safetensors
 
 #Lora
