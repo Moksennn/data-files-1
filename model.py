@@ -1,5 +1,5 @@
 #Model
-https://huggingface.co/Lord769/Models/resolve/main/cocoIllustriousNoobai_v50.safetensors
+https://huggingface.co/Lord769/Models/resolve/main/novaAnimeXL_illustriousV10.safetensors
 
 #Lora
 https://huggingface.co/Lord769/Models/resolve/main/Sylpha.safetensors
