@@ -76,7 +76,7 @@
     "training_enable_tensorboard": false,
     "training_tensorboard_save_images": false,
     "training_tensorboard_flush_every": 120,
-    "sd_model_checkpoint": "cocoIllustriousNoobai_2dV10.safetensors",
+    "sd_model_checkpoint": "novaAnimeXL_illustriousV10.safetensors",
     "sd_checkpoint_cache": 0,
     "sd_vae_checkpoint_cache": 0,
     "sd_vae": "sdxl_vae.safetensors",
@@ -163,8 +163,8 @@
     ],
     "ui_tab_order": [],
     "hidden_tabs": [
-        "Train",
-        "Checkpoint Merger"
+        "",
+        ""
     ],
     "ui_reorder_list": [],
     "hires_fix_show_sampler": false,
