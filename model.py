@@ -1,5 +1,5 @@
 #Model
-https://huggingface.co/Lord769/Models/resolve/main/miaomiaoHarem_v13.safetensors
+https://huggingface.co/Lord769/Models/resolve/main/AniIllustrioussxlv2.safetensors
 https://huggingface.co/Lord769/Models/resolve/main/illustriousGehennaIL_v10.safetensors
 https://huggingface.co/Lord769/Models/resolve/main/cocoIllustriousNoobai_2dV10.safetensors
 
