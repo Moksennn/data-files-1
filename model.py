@@ -1,4 +1,5 @@
 #Model
+https://huggingface.co/Lord769/Models/resolve/main/AniIllustrioussxlv2.safetensors
 https://huggingface.co/Lord769/Models/resolve/main/prefectIllustriousXL_v10.safetensors
 
 #Lora
