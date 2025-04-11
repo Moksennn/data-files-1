@@ -1,6 +1,5 @@
 #Model
 https://huggingface.co/Lord769/Models/resolve/main/cocoIllustriousNoobai_2dV10.safetensors
-https://huggingface.co/Lord769/Models/resolve/main/illustriousGehenna_v31.safetensors
 
 #Lora
 https://huggingface.co/Lord769/Models/resolve/main/AmagiBrilliantPark_SentoIsuzu_IlluXL.safetensors
