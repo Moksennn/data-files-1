@@ -1,5 +1,4 @@
 import gc
-import tracemalloc
 import os
 import logging
 from collections import OrderedDict
