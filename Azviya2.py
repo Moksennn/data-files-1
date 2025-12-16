@@ -13,6 +13,7 @@ insightface==0.7.3
 onnx==1.14.0
 onnxruntime==1.15.0
 opencv-python==4.7.0.72
+numpy==1.26.4
 tqdm
 https://github.com/AUTOMATIC1111/stable-diffusion-webui
 https://github.com/Iyashinouta/sd-model-downloader
