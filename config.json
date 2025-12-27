@@ -33,7 +33,7 @@
     "save_init_img": false,
     "temp_dir": "",
     "clean_temp_dir_at_start": false,
-    "outdir_samples": "outputs",
+    "outdir_samples": "",
     "outdir_txt2img_samples": "outputs/(1)",
     "outdir_img2img_samples": "outputs/(2)",
     "outdir_extras_samples": "outputs/(3)",
