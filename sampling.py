@@ -114,6 +114,37 @@ class BrownianTreeNoiseSampler:
         return self.tree(t0, t1) / (t1 - t0).abs().sqrt()
 
 
+class _Rescaler:
+    def __init__(self, model, x, mode, **extra_args):
+        self.model = model
+        self.x = x
+        self.mode = mode
+        self.extra_args = extra_args
+        if BACKEND == "WebUI":
+            self.init_latent, self.mask, self.nmask = model.init_latent, model.mask, model.nmask
+        if BACKEND == "ComfyUI":
+            self.latent_image, self.noise = model.latent_image, model.noise
+            self.denoise_mask = self.extra_args.get("denoise_mask", None)
+
+    def __enter__(self):
+        if BACKEND == "WebUI":
+            if self.init_latent is not None:
+                self.model.init_latent = torch.nn.functional.interpolate(input=self.init_latent, size=self.x.shape[2:4], mode=self.mode)
+            if self.mask is not None:
+                self.model.mask = torch.nn.functional.interpolate(input=self.mask.unsqueeze(0), size=self.x.shape[2:4], mode=self.mode).squeeze(0)
+            if self.nmask is not None:
+                self.model.nmask = torch.nn.functional.interpolate(input=self.nmask.unsqueeze(0), size=self.x.shape[2:4], mode=self.mode).squeeze(0)
+        if BACKEND == "ComfyUI":
+            if self.latent_image is not None:
+                self.model.latent_image = torch.nn.functional.interpolate(input=self.latent_image, size=self.x.shape[2:4], mode=self.mode)
+            if self.noise is not None:
+                self.model.noise = torch.nn.functional.interpolate(input=self.latent_image, size=self.x.shape[2:4], mode=self.mode)
+            if self.denoise_mask is not None:
+                self.extra_args["denoise_mask"] = torch.nn.functional.interpolate(input=self.denoise_mask, size=self.x.shape[2:4], mode=self.mode)
+
+        return self
+
+
 @torch.no_grad()
 def sample_euler(model, x, sigmas, extra_args=None, callback=None, disable=None, s_churn=0., s_tmin=0., s_tmax=float('inf'), s_noise=1.):
     """Implements Algorithm 2 (Euler steps) from Karras et al. (2022)."""
