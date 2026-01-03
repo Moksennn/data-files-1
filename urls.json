@@ -45,10 +45,10 @@
     },
     "LoRAs": {
         "keyname_to_url": {
-            "": "https://civitai.com/api/download/models/1513547"
+            "ErinaNakiri": "https://civitai.com/api/download/models/1513547"
         },
         "url_to_keyname": {
-            "https://civitai.com/api/download/models/1513547": ""
+            "https://civitai.com/api/download/models/1513547": "ErinaNakiri"
         },
         "hugging_face": []
     },
