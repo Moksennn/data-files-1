@@ -23,9 +23,9 @@
             "AnythingXL_xl": "https://civitai.com/api/download/models/384264?type=Model&format=SafeTensor&size=full&fp=fp16",
             "ponyRealism_V23ULTRA": "https://civitai.com/api/download/models/1920896?type=Model&format=SafeTensor&size=full&fp=fp16",
             "hassakuXLIllustrious_v22": "https://civitai.com/api/download/models/1697082?type=Model&format=SafeTensor&size=pruned&fp=fp16",
-            "plantMilkModelSuite_walnut": "",
-            "cocoIllustriousNoobai_2dV10": "",
-            "lXlAnIL": ""
+            "plantMilkModelSuite_walnut": "plantMilkModelSuite_walnut",
+            "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10",
+            "lXlAnIL": "lXlAnIL"
         },
         "url_to_keyname": {
             "https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16": "ponyDiffusionV6XL_v6StartWithThisOne",
@@ -39,9 +39,9 @@
             "https://civitai.com/api/download/models/384264?type=Model&format=SafeTensor&size=full&fp=fp16": "AnythingXL_xl",
             "https://civitai.com/api/download/models/1920896?type=Model&format=SafeTensor&size=full&fp=fp16": "ponyRealism_V23ULTRA",
             "https://civitai.com/api/download/models/1697082?type=Model&format=SafeTensor&size=pruned&fp=fp16": "hassakuXLIllustrious_v22",
-            "": "plantMilkModelSuite_walnut",
-            "": "cocoIllustriousNoobai_2dV10",
-            "": "lXlAnIL"
+            "plantMilkModelSuite_walnut": "plantMilkModelSuite_walnut",
+            "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10",
+            "lXlAnIL": "lXlAnIL"
         },
         "hugging_face": [
             "stabilityai/stable-diffusion-xl-base-1.0"
@@ -49,12 +49,12 @@
     },
     "LoRAs": {
         "keyname_to_url": {
-            "ErinaNakiri": "",
-            "ChloeWelter": ""
+            "ErinaNakiri": "ErinaNakiri",
+            "ChloeWelter": "ChloeWelter"
         },
         "url_to_keyname": {
-            "": "ErinaNakiri",
-            "": "ChloeWelter"
+            "ErinaNakiri": "ErinaNakiri",
+            "ChloeWelter": "ChloeWelter"
         },
         "hugging_face": []
     },
