@@ -23,7 +23,9 @@
             "AnythingXL_xl": "https://civitai.com/api/download/models/384264?type=Model&format=SafeTensor&size=full&fp=fp16",
             "ponyRealism_V23ULTRA": "https://civitai.com/api/download/models/1920896?type=Model&format=SafeTensor&size=full&fp=fp16",
             "hassakuXLIllustrious_v22": "https://civitai.com/api/download/models/1697082?type=Model&format=SafeTensor&size=pruned&fp=fp16",
-            "plantMilkModelSuite_walnut": "https://civitai.com/api/download/models/1714002?type=Model&format=SafeTensor&size=pruned&fp=fp16"
+            "plantMilkModelSuite_walnut": "",
+            "cocoIllustriousNoobai_2dV10": "",
+            "lXlAnIL": ""
         },
         "url_to_keyname": {
             "https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16": "ponyDiffusionV6XL_v6StartWithThisOne",
@@ -37,7 +39,9 @@
             "https://civitai.com/api/download/models/384264?type=Model&format=SafeTensor&size=full&fp=fp16": "AnythingXL_xl",
             "https://civitai.com/api/download/models/1920896?type=Model&format=SafeTensor&size=full&fp=fp16": "ponyRealism_V23ULTRA",
             "https://civitai.com/api/download/models/1697082?type=Model&format=SafeTensor&size=pruned&fp=fp16": "hassakuXLIllustrious_v22",
-            "https://civitai.com/api/download/models/1714002?type=Model&format=SafeTensor&size=pruned&fp=fp16": "plantMilkModelSuite_walnut"
+            "": "plantMilkModelSuite_walnut",
+            "": "cocoIllustriousNoobai_2dV10",
+            "": "lXlAnIL"
         },
         "hugging_face": [
             "stabilityai/stable-diffusion-xl-base-1.0"
@@ -45,12 +49,12 @@
     },
     "LoRAs": {
         "keyname_to_url": {
-            "ErinaNakiri": "https://civitai.com/api/download/models/1513547?type=Model&format=SafeTensor",
-            "ChloeWelter": "https://civitai.com/api/download/models/2337451?type=Model&format=SafeTensor"
+            "ErinaNakiri": "",
+            "ChloeWelter": ""
         },
         "url_to_keyname": {
-            "https://civitai.com/api/download/models/1513547?type=Model&format=SafeTensor": "ErinaNakiri",
-            "https://civitai.com/api/download/models/2337451?type=Model&format=SafeTensor": "ChloeWelter"
+            "": "ErinaNakiri",
+            "": "ChloeWelter"
         },
         "hugging_face": []
     },
