@@ -25,6 +25,7 @@
             "hassakuXLIllustrious_v22": "https://civitai.com/api/download/models/1697082?type=Model&format=SafeTensor&size=pruned&fp=fp16",
             "plantMilkModelSuite_walnut": "plantMilkModelSuite_walnut",
             "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10",
+            "miaomiaoHarem_baseV10": "miaomiaoHarem_baseV10",
             "lXlAnIL": "lXlAnIL"
         },
         "url_to_keyname": {
@@ -41,6 +42,7 @@
             "https://civitai.com/api/download/models/1697082?type=Model&format=SafeTensor&size=pruned&fp=fp16": "hassakuXLIllustrious_v22",
             "plantMilkModelSuite_walnut": "plantMilkModelSuite_walnut",
             "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10",
+            "miaomiaoHarem_baseV10": "miaomiaoHarem_baseV10",
             "lXlAnIL": "lXlAnIL"
         },
         "hugging_face": [
