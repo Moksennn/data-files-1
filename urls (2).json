@@ -54,10 +54,12 @@
     "LoRAs": {
         "keyname_to_url": {
             "ErinaNakiri": "ErinaNakiri",
+            "Sasha": "Sasha",
             "ChloeWelter": "ChloeWelter"
         },
         "url_to_keyname": {
             "ErinaNakiri": "ErinaNakiri",
+            "Sasha": "Sasha",
             "ChloeWelter": "ChloeWelter"
         },
         "hugging_face": []
