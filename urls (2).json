@@ -26,7 +26,8 @@
             "plantMilkModelSuite_walnut": "plantMilkModelSuite_walnut",
             "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10",
             "miaomiaoHarem_baseV10": "miaomiaoHarem_baseV10",
-            "lXlAnIL": "lXlAnIL"
+            "lXlAnIL": "lXlAnIL",
+            "Vanilla": "Vanilla"
         },
         "url_to_keyname": {
             "https://civitai.com/api/download/models/290640?type=Model&format=SafeTensor&size=pruned&fp=fp16": "ponyDiffusionV6XL_v6StartWithThisOne",
@@ -43,7 +44,8 @@
             "plantMilkModelSuite_walnut": "plantMilkModelSuite_walnut",
             "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10",
             "miaomiaoHarem_baseV10": "miaomiaoHarem_baseV10",
-            "lXlAnIL": "lXlAnIL"
+            "lXlAnIL": "lXlAnIL",
+            "Vanilla": "Vanilla"
         },
         "hugging_face": [
             "stabilityai/stable-diffusion-xl-base-1.0"
