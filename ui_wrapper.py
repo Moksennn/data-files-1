@@ -9,6 +9,7 @@ from StableDiffusionXLColabUI.UI.img2img_settings import Img2ImgSettings
 from StableDiffusionXLColabUI.UI.preset_system import PresetSystem
 from StableDiffusionXLColabUI.UI.lora_settings import LoRALoader
 from StableDiffusionXLColabUI.UI.history import HistorySystem
+from StableDiffusionXLColabUI.UI.inpainting_extension import InpaintingExtension
 from StableDiffusionXLColabUI.UI import all_widgets
 import ipywidgets as widgets
 import json
@@ -124,6 +125,12 @@ class UIWrapper:
                 else:
                     hires = None
                     hires_values = None
+            
+            if key == "inpaint":
+    self.value_list = self.inpaint_ext.process(
+        self.value_list,
+        selected_class
+    )
 
                 try:
                     main.run(self.value_list, 
@@ -289,6 +296,7 @@ class UIWrapper:
         self.img2img = Img2ImgSettings(cfg["img2img"], ideas_line, gpt2_pipe, base_path)
         self.controlnet = ControlNetSettings(cfg["controlnet"], ideas_line, gpt2_pipe, base_path)
         self.inpaint = InpaintingSettings(cfg["inpaint"], ideas_line, gpt2_pipe, base_path)
+        self.inpaint_ext = InpaintingExtension()
         self.ip = IPAdapterLoader(cfg["ip"])
         self.lora = LoRALoader(cfg["lora"], base_path)
         self.embeddings = TextualInversionLoader(cfg["embeddings"], base_path)
@@ -405,7 +413,7 @@ class UIWrapper:
             widgets.VBox([self.model_settings, border, self.text2img.wrap_settings(), self.additional_widgets]),
             widgets.VBox([self.model_settings, border, self.img2img.wrap_settings(), self.additional_widgets]),
             widgets.VBox([self.model_settings, self.controlnet.wrap_settings(), self.additional_widgets]),
-            widgets.VBox([self.inpaint_output, self.model_settings, border, self.inpaint.wrap_settings(), self.additional_widgets]),
+            widgets.VBox([self.inpaint_output, self.model_settings, border, self.inpaint.wrap_settings(), self.inpaint_ext.ui, self.additional_widgets]),
             widgets.VBox([self.lora.wrap_settings(), self.token_section]),
             widgets.VBox([self.embeddings.wrap_settings(), self.token_section]),
             self.ip.wrap_settings(),
