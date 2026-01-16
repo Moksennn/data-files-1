@@ -30,6 +30,7 @@
             "CyanCloud": "CyanCloud",
             "PvcObsession": "PvcObsession",
             "MiaoMiaoHarem_v19": "MiaoMiaoHarem_v19",
+            "DeliberatePvc": "DeliberatePvc",
             "Vanilla": "Vanilla"
         },
         "url_to_keyname": {
@@ -51,6 +52,7 @@
             "CyanCloud": "CyanCloud",
             "PvcObsession": "PvcObsession",
             "MiaoMiaoHarem_v19": "MiaoMiaoHarem_v19",
+            "DeliberatePvc": "DeliberatePvc",
             "Vanilla": "Vanilla"
         },
         "hugging_face": [
