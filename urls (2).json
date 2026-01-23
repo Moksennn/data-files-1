@@ -64,12 +64,14 @@
             "ErinaNakiri": "ErinaNakiri",
             "Sasha": "Sasha",
             "SakuraIchiko": "SakuraIchiko",
+            "Alya": "Alya",
             "ChloeWelter": "ChloeWelter"
         },
         "url_to_keyname": {
             "ErinaNakiri": "ErinaNakiri",
             "Sasha": "Sasha",
             "SakuraIchiko": "SakuraIchiko",
+            "Alya": "Alya",
             "ChloeWelter": "ChloeWelter"
         },
         "hugging_face": []
