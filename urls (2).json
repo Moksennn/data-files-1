@@ -31,6 +31,7 @@
             "PvcObsession": "PvcObsession",
             "MiaoMiaoHarem_v19": "MiaoMiaoHarem_v19",
             "DeliberatePvc": "DeliberatePvc",
+            "ToriFusion": "ToriFusion",
             "Vanilla": "Vanilla"
         },
         "url_to_keyname": {
@@ -53,6 +54,7 @@
             "PvcObsession": "PvcObsession",
             "MiaoMiaoHarem_v19": "MiaoMiaoHarem_v19",
             "DeliberatePvc": "DeliberatePvc",
+            "ToriFusion": "ToriFusion",
             "Vanilla": "Vanilla"
         },
         "hugging_face": [
