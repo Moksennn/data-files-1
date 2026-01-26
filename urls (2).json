@@ -67,6 +67,7 @@
             "Sasha": "Sasha",
             "SakuraIchiko": "SakuraIchiko",
             "Alya": "Alya",
+            "MegaMega": "MegaMega",
             "ChloeWelter": "ChloeWelter"
         },
         "url_to_keyname": {
@@ -74,6 +75,7 @@
             "Sasha": "Sasha",
             "SakuraIchiko": "SakuraIchiko",
             "Alya": "Alya",
+            "MegaMega": "MegaMega",
             "ChloeWelter": "ChloeWelter"
         },
         "hugging_face": []
