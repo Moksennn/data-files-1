@@ -69,6 +69,7 @@
             "Alya": "Alya",
             "MegaMega": "MegaMega",
             "Rossweisse": "Rossweisse",
+            "Melphiera": "Melphiera",
             "ChloeWelter": "ChloeWelter"
         },
         "url_to_keyname": {
@@ -78,6 +79,7 @@
             "Alya": "Alya",
             "MegaMega": "MegaMega",
             "Rossweisse": "Rossweisse",
+            "Melphiera": "Melphiera",
             "ChloeWelter": "ChloeWelter"
         },
         "hugging_face": []
