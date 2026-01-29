@@ -70,6 +70,7 @@
             "MegaMega": "MegaMega",
             "Rossweisse": "Rossweisse",
             "Melphiera": "Melphiera",
+            "YotsubaMaya": "YotsubaMaya",
             "ChloeWelter": "ChloeWelter"
         },
         "url_to_keyname": {
@@ -80,6 +81,7 @@
             "MegaMega": "MegaMega",
             "Rossweisse": "Rossweisse",
             "Melphiera": "Melphiera",
+            "YotsubaMaya": "YotsubaMaya",
             "ChloeWelter": "ChloeWelter"
         },
         "hugging_face": []
