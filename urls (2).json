@@ -78,6 +78,9 @@
             "Sagiri": "Sagiri",
             "YobaneSuzume": "YobaneSuzume",
             "HanaKazamaki": "HanaKazamaki",
+            "MashiroNakanishi": "MashiroNakanishi",
+            "AzuhaHoshino": "AzuhaHoshino",
+            "Berta": "Berta",
             "ChloeWelter": "ChloeWelter"
         },
         "url_to_keyname": {
@@ -92,6 +95,9 @@
             "Sagiri": "Sagiri",
             "YobaneSuzume": "YobaneSuzume",
             "HanaKazamaki": "HanaKazamaki",
+            "MashiroNakanishi": "MashiroNakanishi",
+            "AzuhaHoshino": "AzuhaHoshino",
+            "Berta": "Berta",
             "ChloeWelter": "ChloeWelter"
         },
         "hugging_face": []
