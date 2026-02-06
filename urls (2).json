@@ -81,6 +81,10 @@
             "MashiroNakanishi": "MashiroNakanishi",
             "AzuhaHoshino": "AzuhaHoshino",
             "Berta": "Berta",
+            "IkaCindy": "IkaCindy",
+            "NiehimeAnastasia": "NiehimeAnastasia",
+            "ZutaboroElvira": "ZutaboroElvira",
+            "MofaLilian": "MofaLilian",
             "ChloeWelter": "ChloeWelter"
         },
         "url_to_keyname": {
@@ -98,6 +102,10 @@
             "MashiroNakanishi": "MashiroNakanishi",
             "AzuhaHoshino": "AzuhaHoshino",
             "Berta": "Berta",
+            "IkaCindy": "IkaCindy",
+            "NiehimeAnastasia": "NiehimeAnastasia",
+            "ZutaboroElvira": "ZutaboroElvira",
+            "MofaLilian": "MofaLilian",
             "ChloeWelter": "ChloeWelter"
         },
         "hugging_face": []
