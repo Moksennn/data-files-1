@@ -1,0 +1,56 @@
+{
+    "VAE": {
+        "keyname_to_url": {
+            "weight": {},
+            "config": {}
+        },
+        "url_to_keyname": {
+            "weight": {},
+            "config": {}
+        },
+        "hugging_face": []
+    },
+    "Checkpoint": {
+        "keyname_to_url": {
+            "Checkpoint(1)": "Checkpoint(1)",
+            "Checkpoint(2)": "Checkpoint(2)",
+            "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10",
+            "miaomiaoHarem_baseV10": "miaomiaoHarem_baseV10",
+            "KageIllustrious": "KageIllustrious",
+            "PvcObsession": "PvcObsession",
+            "Vanilla": "Vanilla"
+        },
+        "url_to_keyname": {
+            "Checkpoint(1)": "Checkpoint(1)",
+            "Checkpoint(2)": "Checkpoint(2)",
+            "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10",
+            "miaomiaoHarem_baseV10": "miaomiaoHarem_baseV10",
+            "KageIllustrious": "KageIllustrious",
+            "PvcObsession": "PvcObsession",
+            "Vanilla": "Vanilla"
+        },
+        "hugging_face": [
+            "stabilityai/stable-diffusion-xl-base-1.0"
+        ]
+    },
+    "LoRAs": {
+        "keyname_to_url": {
+            "LoRA(1)": "LoRA(1)",
+            "LoRA(2)": "LoRA(2)",
+            "LoRA(3)": "LoRA(3)",
+            "LoRA(4)": "LoRA(4)"
+        },
+        "url_to_keyname": {
+            "LoRA(1)": "LoRA(1)",
+            "LoRA(2)": "LoRA(2)",
+            "LoRA(3)": "LoRA(3)",
+            "LoRA(4)": "LoRA(4)"
+        },
+        "hugging_face": []
+    },
+    "Embeddings": {
+        "keyname_to_url": {},
+        "url_to_keyname": {},
+        "hugging_face": []
+    }
+}
