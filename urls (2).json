@@ -1,14 +1,10 @@
 {
     "VAE": {
         "keyname_to_url": {
-            "VAE(1)": "VAE(1)",
-            "weight": {},
-            "config": {}
+            "VAE(1)": "VAE(1)"
         },
         "url_to_keyname": {
-            "VAE(1)": "VAE(1)",
-            "weight": {},
-            "config": {}
+            "VAE(1)": "VAE(1)"
         },
         "hugging_face": []
     },
