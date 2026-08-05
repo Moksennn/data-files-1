@@ -12,23 +12,22 @@
     },
     "Checkpoint": {
         "keyname_to_url": {
-            "Checkpoint(1)": "Checkpoint(1)",
-            "Checkpoint(2)": "Checkpoint(2)",
-            "GODetailedAnime": "GODetailedAnime",
-            "RandomMix2D": "RandomMix2D",
+            "Checkpoint-1": "Checkpoint-1",
+            "Checkpoint-2": "Checkpoint-2",
+            "Checkpoint-3": "Checkpoint-3",
+            "GOSmoothAnime": "GOSmoothAnime",
             "PvcObsession": "PvcObsession",
             "miaomiaoHarem_baseV10": "miaomiaoHarem_baseV10",
             "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10"
         },
         "url_to_keyname": {
-            "Checkpoint(1)": "Checkpoint(1)",
-            "Checkpoint(2)": "Checkpoint(2)",
-            "GODetailedAnime": "GODetailedAnime",
-            "RandomMix2D": "RandomMix2D",
+            "Checkpoint-1": "Checkpoint-1",
+            "Checkpoint-2": "Checkpoint-2",
+            "Checkpoint-3": "Checkpoint-3",
+            "GOSmoothAnime": "GOSmoothAnime",
             "PvcObsession": "PvcObsession",
             "miaomiaoHarem_baseV10": "miaomiaoHarem_baseV10",
-            "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10",
-            "AnthroBlend": "AnthroBlend"
+            "cocoIllustriousNoobai_2dV10": "cocoIllustriousNoobai_2dV10"
         },
         "hugging_face": [
             "stabilityai/stable-diffusion-xl-base-1.0"
@@ -36,16 +35,16 @@
     },
     "LoRAs": {
         "keyname_to_url": {
-            "LoRA(1)": "LoRA(1)",
-            "LoRA(2)": "LoRA(2)",
-            "LoRA(3)": "LoRA(3)",
-            "LoRA(4)": "LoRA(4)"
+            "LoRA-1": "LoRA-1",
+            "LoRA-2": "LoRA-2",
+            "LoRA-3": "LoRA-3",
+            "LoRA-4": "LoRA-4"
         },
         "url_to_keyname": {
-            "LoRA(1)": "LoRA(1)",
-            "LoRA(2)": "LoRA(2)",
-            "LoRA(3)": "LoRA(3)",
-            "LoRA(4)": "LoRA(4)"
+            "LoRA-1": "LoRA-1",
+            "LoRA-2": "LoRA-2",
+            "LoRA-3": "LoRA-3",
+            "LoRA-4": "LoRA-4"
         },
         "hugging_face": []
     },
